@@ -1,0 +1,121 @@
+﻿
+
+body {
+    background: #2A3B41;
+    color: white;
+    line-height: 1;
+}
+#wrap {
+    margin: 20px auto 0;
+    width: 1000px;
+    
+}
+#header {
+    height: 200px;
+    margin: 20px 0px 10px 20px;
+    width: 100%;
+    background-color: silver;
+    
+-moz-box-shadow: 1px 1px 10px #d8d8d8;
+-webkit-box-shadow: 1px 1px 10px #d8d8d8;
+-box-shadow: 1px 1px 10px #d8d8d8; 
+-webkit-border-radius: 5px 10px;  /* Safari  */
+-moz-border-radius: 5px 10px;     /* Firefox */
+
+
+}
+
+#header h1{ color:black;} 
+
+#container {
+    height: 600px;
+    margin: 20px;
+    width: 100%;
+    background-color: #ADD8E6;
+-webkit-border-radius: 5px 10px;  /* Safari  */
+-moz-border-radius: 5px 10px;     /* Firefox */
+-moz-box-shadow: 1px 1px 10px #00f;
+-webkit-box-shadow: 1px 1px 10px #00f;
+-box-shadow: 1px 1px 10px #00f; 
+  
+}
+
+
+
+#principal{
+    height: 100%;
+    margin:0 0 -62% 0;
+    width: 100%;
+    background-color: #000;
+
+  
+}
+
+#nav {
+	height:70px;
+	width:100%;
+	background-color: #fff; 
+	margin:-10px 20px; 
+
+}
+
+#menuesp
+ {
+  margin: 20px 0 0 0;
+	background-color: #000000;
+    height: 100%;
+    width: 200px;
+    z-index: 200;
+}
+#menuesp table
+{
+ position: absolute;
+    width: 180px;
+}
+
+
+#procesos{
+  background-color: #D8D8D8;
+    height: 595px;
+    margin: -595px 210px 200px;
+    position: absolute;
+    width: 780px;
+
+}
+#footer {
+    /*background-color: #D8D8D8;*/
+    background-color: silver;
+    height: 200px;
+    margin: 20px;
+    width: 100%;
+-moz-box-shadow: 1px 1px 10px #d8d8d8;
+-webkit-box-shadow: 1px 1px 10px #d8d8d8;
+-box-shadow: 1px 1px 10px #d8d8d8; 
+-webkit-border-radius: 5px 10px;  /* Safari  */
+-moz-border-radius: 5px 10px;     /* Firefox */
+}
+
+
+
+
+.column {
+    float: left;
+    line-height: 2.2em;
+    margin: 0 40px 0 22px ;
+    width: 283px;
+}
+.column.last {
+    margin-right: 0;
+}
+.column img {
+    border: 1px solid #DDDDDD;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+.more a {
+    background: url("../images/bullet.gif") no-repeat scroll 0 7px transparent;
+    color: #672A6D;
+    font-size: 0.9em;
+    font-weight: bold;
+    padding: 0 0 0 8px;
+}
